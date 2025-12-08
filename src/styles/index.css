@@ -17,8 +17,16 @@ body {
     var(--tw-prose-body);
 }
 
+#hero-heading-pin:empty {
+  display: none;
+}
+
 a {
-  @apply text-primary underline-offset-2 transition hover:text-accent hover:no-underline focus-visible:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950;
+  @apply underline-offset-2 transition focus-visible:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950;
+}
+
+a:not(.btn) {
+  @apply inline-flex items-center gap-1 rounded-lg border border-transparent px-2 py-1 text-sm font-medium text-primary hover:-translate-y-0.5 hover:border-primary/40 hover:bg-primary/5;
 }
 
 .btn {

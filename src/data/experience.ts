@@ -17,11 +17,12 @@ export const experiences: Experience[] = [
     start: 'Dec 2024',
     end: 'Present',
     summary:
-      'Leading modernization of Domino’s ordering and operations stack, spanning .NET Core services, Azure DevOps automation, and AKS-hosted microservices.',
+      'Leading modernization of Domino’s ordering and operations stack, spanning .NET Core services, Azure DevOps automation, and AKS-hosted microservices with an emphasis on Spot compute savings and shared best practices.',
     highlights: [
-      'Upgraded dozens of AKS services to modern Helm charts with Spot compute support across 10+ engineering teams, saving thousands in monthly infra spend while standardizing deployments.',
-      'Optimized Azure DevOps pipelines with dynamic waits, real-time log streaming, and template refactors to cut deployment time by up to 85% and tighten feedback loops.',
-      'Improved platform reliability by removing duplicate deployments and mentoring teams on Kubernetes + Helm best practices, eliminating hundreds of hours of manual work.',
+      'Completed a cross-org audit of AKS namespaces, cataloged gaps on a Confluence tracker, and upgraded dozens of Helm chart releases to enable Spot compute for CI, Sandbox, and Stage workloads across 10+ teams.',
+      'Partnered with platform + infra groups to remove ghost/duplicate services and align variable groups and pipeline YAML with the new Helm versions, improving operational hygiene.',
+      'Optimized Azure DevOps pipelines with dynamic waits, parallel steps, and real-time log streaming to cut deployment time by up to 85% and keep developers in fast feedback loops.',
+      'Mentored feature teams on Helm, Spot compute, and rollback procedures and reviewed their PRs to keep deployments consistent and secure.',
     ],
     tech: ['.NET Core', 'Azure DevOps', 'Azure Kubernetes Service', 'Helm', 'Docker', 'C#'],
   },

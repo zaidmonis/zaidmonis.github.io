@@ -20,7 +20,7 @@ export const profile: Profile = {
   tagline: 'Full-stack engineer scaling SaaS platforms across Azure and AWS.',
   email: 'mohdzaid@gmail.com',
   summary:
-    'Full Stack .NET developer with 5+ years delivering enterprise SaaS solutions in C#, ASP.NET, and .NET Core. I focus on scalable APIs, Azure- and AWS-hosted microservices, and DevOps automation that keeps teams shipping quickly with confidence.',
+    'Backend-focused full stack engineer with 5+ years building enterprise SaaS platforms across Java + Spring Boot, C# + .NET Core, and React frontends. Proven to deliver API-heavy systems backed by MS SQL with a focus on performance tuning, Agile delivery, and CI/CD automation on Azure and AWS. Comfortable building responsive UI with Bootstrap, shaping microservices, and deploying with Docker, Kubernetes, and Azure DevOps—all while mentoring teams through code reviews, testing leadership, and collaborative technical excellence.',
   social: {
     github: 'https://github.com/zaidmonis',
     linkedin: 'https://www.linkedin.com/in/zaidmonis',

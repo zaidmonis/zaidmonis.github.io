@@ -7,6 +7,13 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    title: 'Standardizing Helm for Spot Compute',
+    date: '2025-01-15',
+    summary: 'How I coordinated AKS upgrades across 10+ teams to unlock Spot savings and cleaner environments.',
+    content:
+      'I audited every namespace, built a single-source-of-truth tracker, and partnered with infra teams to upgrade Helm charts, clean ghost services, and align pipelines. The payoff: thousands saved each month and a playbook any team can reuse.',
+  },
+  {
     title: 'Building a UNESCO Hackathon Winner',
     date: '2022-11-01',
     summary: 'How our cross-country squad shipped a winning prototype during the UNESCO-India-Africa Hackathon.',
