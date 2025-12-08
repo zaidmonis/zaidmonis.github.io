@@ -7,7 +7,7 @@ const BlogPage: React.FC = () => (
     <SectionHeader
       eyebrow="Notes"
       title="Blog"
-      description="Short-form notes and writeups. Replace with your own posts or remove the route if unused."
+      description="Short-form notes and writeups."
     />
     <div className="space-y-4">
       {posts.map((post) => (
