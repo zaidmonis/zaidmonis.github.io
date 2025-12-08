@@ -8,10 +8,10 @@ export interface Education {
 
 export const education: Education[] = [
   {
-    school: 'Your University',
-    degree: 'Bachelor of Science in Computer Science',
-    period: '2016 – 2020',
-    location: 'City, Country',
-    details: 'Coursework in software engineering, algorithms, and human-computer interaction.',
+    school: 'Guru Gobind Singh Indraprastha University',
+    degree: 'Master of Computer Applications',
+    period: 'Graduated Jul 2020',
+    location: 'New Delhi, India',
+    details: 'Advanced study in software engineering, distributed systems, and enterprise application development.',
   },
 ];

@@ -14,17 +14,17 @@ export interface Profile {
 }
 
 export const profile: Profile = {
-  name: 'Mohammad Zaid Monis',
-  title: 'Software Engineer',
-  location: 'Your City, Country',
-  tagline: 'Building reliable, user-focused software products.',
-  email: 'you@example.com',
+  name: 'Mohd Zaid',
+  title: 'Full Stack .NET Developer',
+  location: 'Kuala Lumpur, Malaysia',
+  tagline: 'Full-stack engineer scaling SaaS platforms across Azure and AWS.',
+  email: 'mohdzaid@gmail.com',
   summary:
-    'Seasoned engineer focused on crafting resilient web applications, automating delivery pipelines, and collaborating closely with cross-functional teams to deliver measurable outcomes.',
+    'Full Stack .NET developer with 5+ years delivering enterprise SaaS solutions in C#, ASP.NET, and .NET Core. I focus on scalable APIs, Azure- and AWS-hosted microservices, and DevOps automation that keeps teams shipping quickly with confidence.',
   social: {
     github: 'https://github.com/zaidmonis',
     linkedin: 'https://www.linkedin.com/in/zaidmonis',
-    resume: 'https://bold.pro/my/mzaid',
+    resume: '/Resume.pdf',
     portfolio: 'https://zaidmonis.github.io',
   },
 };

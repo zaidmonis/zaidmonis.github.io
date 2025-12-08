@@ -6,27 +6,35 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    name: 'Languages',
-    items: ['TypeScript', 'JavaScript', 'Python', 'SQL'],
+    name: 'Programming Languages',
+    items: ['C#', 'Java', 'Kotlin', 'JavaScript'],
+  },
+  {
+    name: 'Backend & Frameworks',
+    items: ['.NET Core', 'ASP.NET', 'Spring Boot', 'Microservices', 'API Development'],
   },
   {
     name: 'Frontend',
-    items: ['React', 'Vite', 'Tailwind CSS', 'CSS Modules'],
+    items: ['React', 'Bootstrap', 'Responsive UI'],
   },
   {
-    name: 'Backend & APIs',
-    items: ['Node.js', 'Express', 'REST', 'GraphQL'],
+    name: 'DevOps & CI/CD',
+    items: ['Azure DevOps', 'GitLab', 'GitHub Actions', 'Jenkins'],
   },
   {
-    name: 'DevOps & Tooling',
-    items: ['GitHub Actions', 'Docker', 'CI/CD', 'Monitoring'],
+    name: 'Cloud & Infrastructure',
+    items: ['Azure', 'AWS', 'Docker', 'Kubernetes', 'Helm'],
   },
   {
-    name: 'Testing',
-    items: ['Jest', 'Testing Library', 'Cypress'],
+    name: 'Databases',
+    items: ['MS SQL Server', 'MySQL', 'PostgreSQL', 'Firebase'],
   },
   {
-    name: 'Collaboration',
-    items: ['Technical writing', 'Mentoring', 'Stakeholder alignment'],
+    name: 'Testing & Quality',
+    items: ['NUnit', 'JUnit', 'Moq', 'Postman', 'TDD', 'UAT'],
+  },
+  {
+    name: 'Tools & AI Assist',
+    items: ['Bash', 'Git', 'Linux CLI', 'OpenAPI/Swagger', 'GitHub Copilot', 'Playwright MCP Server', 'Custom MCP servers'],
   },
 ];

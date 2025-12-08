@@ -7,17 +7,17 @@ export interface Post {
 
 export const posts: Post[] = [
   {
-    title: 'Designing a Maintainable Portfolio',
-    date: '2025-02-01',
-    summary: 'Why I chose React + Vite and a data-driven content layer for this site.',
+    title: 'Building a UNESCO Hackathon Winner',
+    date: '2022-11-01',
+    summary: 'How our cross-country squad shipped a winning prototype during the UNESCO-India-Africa Hackathon.',
     content:
-      'This starter keeps content in structured files under src/data so that new projects, experiences, or posts can be added without touching UI components. Swap in your own resume data and deploy in minutes.',
+      'I mentored six developers spread across three countries, aligned us on a slim backlog, and kept quality high through async reviews. The prototype not only hit every judging criteria but also demonstrated how collaborative engineering practices can succeed under intense timelines.',
   },
   {
-    title: 'Shipping Faster with CI/CD',
-    date: '2024-11-15',
-    summary: 'Simple patterns that made our deployments predictable and boring.',
+    title: 'Smart India Hackathon Journey',
+    date: '2019-08-20',
+    summary: 'Lessons from leading our team to a 2nd-place finish at the Smart India Hackathon grand finale.',
     content:
-      'Automated tests, preview builds, and feature flags allow us to deliver small increments safely. This portfolio uses the same idea with a GitHub Actions workflow that builds and publishes to Pages.',
+      'As development lead, I coordinated architecture decisions, unblocked teammates, and kept stakeholders informed. The result was a polished software prototype that impressed the jury and reinforced my passion for guiding teams through ambiguity.',
   },
 ];

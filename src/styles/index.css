@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  @apply text-primary underline-offset-2 transition hover:underline;
+  @apply text-primary underline-offset-2 transition hover:text-accent hover:no-underline focus-visible:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/50 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-slate-950;
 }
 
 .btn {

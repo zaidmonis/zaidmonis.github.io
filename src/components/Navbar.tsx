@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
     <header className="sticky top-0 z-50 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
         <Link to="/" className="text-lg font-semibold text-primary">
-          Zaid Monis
+          Mohd Zaid
         </Link>
         <div className="flex items-center gap-2 md:hidden">
           <button

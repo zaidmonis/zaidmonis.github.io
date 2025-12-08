@@ -11,30 +11,27 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Camera Simulation',
-    type: 'Personal',
-    description: 'Interactive camera and lighting simulator published to GitHub Pages.',
-    tech: ['TypeScript', 'Three.js', 'Vite'],
-    links: {
-      github: 'https://github.com/zaidmonis/camera-simulation',
-      demo: 'https://zaidmonis.github.io/camera-simulation/',
-    },
-  },
-  {
-    title: 'Engineering Portfolio',
-    type: 'Personal',
-    description: 'This site. Modular React + Vite template with theme toggle and content loaded from structured data files.',
-    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
-    links: {
-      github: 'https://github.com/zaidmonis/zaidmonis.github.io',
-      demo: 'https://zaidmonis.github.io/',
-    },
-  },
-  {
-    title: 'Release Automation Toolkit',
+    title: "Domino's AKS Modernization",
     type: 'Professional',
-    description: 'CI/CD pipelines and scripts that cut deployment time and reduced regressions.',
-    tech: ['GitHub Actions', 'Node.js', 'Docker'],
+    description:
+      'Led the upgrade of dozens of AKS services to Helm-based Spot compute deployments for Domino’s engineering teams, delivering standardized release workflows and sizable monthly cloud savings.',
+    tech: ['.NET Core', 'Azure Kubernetes Service', 'Helm', 'Docker', 'Azure DevOps'],
+    links: {},
+  },
+  {
+    title: 'Azure DevOps Pipeline Accelerator',
+    type: 'Professional',
+    description:
+      'Created reusable Azure DevOps templates with dynamic waits, log streaming, and shared governance that cut deployment time by up to 85% and improved feedback loops for critical services.',
+    tech: ['Azure DevOps', 'CI/CD', 'PowerShell', 'YAML'],
+    links: {},
+  },
+  {
+    title: 'Legacy-to-Salesforce Migration Utility',
+    type: 'Professional',
+    description:
+      'Designed a high-volume migration platform that moved 50M+ legacy records into Salesforce by orchestrating AWS S3, multi-threaded workers, and rigorous reconciliation pipelines.',
+    tech: ['AWS S3', 'Salesforce', '.NET Core', 'C#', 'MS SQL Server'],
     links: {},
   },
 ];

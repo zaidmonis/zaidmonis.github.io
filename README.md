@@ -1,6 +1,6 @@
 # Portfolio (React + Vite + Tailwind)
 
-This is a data-driven portfolio starter tailored for **Mohammad Zaid Monis** and ready for GitHub Pages deployment at `https://zaidmonis.github.io/`. Content lives in `src/data` so you can update the site without editing UI logic.
+This is a data-driven portfolio starter tailored for **Mohd Zaid** and ready for GitHub Pages deployment at `https://zaidmonis.github.io/`. Content lives in `src/data` so you can update the site without editing UI logic.
 
 > Placeholder notice: Replace the sample experience, skills, education, and contact details with your real resume data. The fields are annotated in the `src/data` files.
 
